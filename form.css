@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/sahiwal-campus.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+}
+nav img{
+    width: 70px;
+}
+.content{
+    width: 400px;
+    height: 340px;
+    background-color: #efefef;
+    margin: auto;
+    border-radius: 8px;
+
+}
+.content h2{
+    text-align: center;
+    padding: 20px;
+
+}
+.content ol li{
+    padding: 10px;
+    margin-left: 30px;
+
+}
+ol li a{
+    text-decoration: none;
+    color: black;
+
+}
+.content hr{
+    margin-top: 28px;
+    opacity: 0.5;
+}
+.content h4{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+@media(max-width:650px){
+    .content{
+        width: 300px;
+        height: 400px;
+    }
+    nav img{
+        margin-left: 90px;
+    }
+    .content h4{
+        font-size: 12px;
+    }
+    .content h2{
+        font-size: 18px;
+    }
+}
